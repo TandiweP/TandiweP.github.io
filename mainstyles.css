@@ -1,0 +1,202 @@
+body {
+    background-color: #375f79;
+    font-size: 5px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+    gap: 5px;
+    height: 100vh;
+    }
+
+    
+.d1 {
+    grid-column: 1 / 4; 
+    position: relative;
+    color: white;
+    font-size: 18em;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    vertical-align: middle;
+    width: span;
+    height: 400px;
+    padding: 150px;
+    background-image: url("monkeybackground.JPG");
+    background-size: cover;
+    }
+
+ 
+.d2 {
+    margin-left: 2px;
+    font-size: 6em;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: #c7a17f;
+    }
+
+
+h2 {
+  text-align: center;
+}
+
+
+#ul-1 {
+  font-size: 20px;
+  list-style-type: none;
+  text-align: center; 
+}
+
+
+.d3 {
+  position: relative;
+  margin-bottom: 5px;
+  padding: 0;
+  margin: 0;
+  height: 200px;
+}
+
+
+.button-linkedin {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100px;
+  background-color: #354dd1;
+}
+
+
+.linkedin {
+  color: black;
+  text-decoration: none;
+}
+
+
+#linkedimg {
+  width:100%;
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.d4{
+    
+    margin-right: 2px;
+    border-radius: 5px;
+    font-size: 6em;
+    color: white;
+    background-color: #c7a17f;
+    text-align: center; 
+}
+
+.d5 {
+  background-image: url("Unique\ Selfie\ right.JPG");
+  background-size: cover;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+
+
+.iframe-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.d7 {
+  background-image: url("Unique\ Selfie\ left.JPG");
+  background-size: cover;
+  }
+
+
+.d8 {
+  grid-column: 1 / 2;
+  grid-row: 4 / 6;
+  border: solid;
+  padding-bottom: 2px; 
+  background-image: url("behind_the_leaf.JPG");
+  background-size: cover;
+  border-radius: 40% 60% 48% 52%;
+}
+
+.d10 {
+  grid-column: 2 / 4;
+  border-style: solid;
+  margin-right: 2px;
+  font-size: 30px;
+  background-color: #c7a17f;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#bio-head {
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  padding: 20px 0px 0px 10px;
+}
+
+#bio-p {
+  font-family: Trebuchet MS;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-size: 20px;
+}
+
+#github {
+  font-family: Trebuchet MS;
+  text-align: center;
+  color: rgb(233, 236, 204);
+  font-size: 20px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #679bad;
+    overflow: hidden;
+  }
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #aeccc6;
+  color: white;
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #375f79;
+  color: white;
+}
+
+
+
+
+
+
