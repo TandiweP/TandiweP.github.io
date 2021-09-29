@@ -1,0 +1,93 @@
+body {
+    background-color: #375f79;
+}
+
+header {
+    text-align: center;
+    font-size: 400px;
+    color: rgb(211, 210, 210);
+}
+
+#card-one {
+    background-color: #c7a17f; 
+}
+
+#card-two {
+    background-color: #c7a17f;
+}
+
+#card-three {
+    background-color: #c7a17f;
+}
+
+div {
+    background-color: #5ea3af;
+    text-align: center;
+}
+
+.card-link {
+color: black;
+font-style: normal;
+text-decoration: none;
+border: solid 
+background-color: orangered; 
+border-radius: 5px;
+}
+
+
+#text-description {
+    color: rgb(80, 80, 80);
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+button {
+    margin: 2px; 
+    background-color: gray;
+    border-radius: 3px;
+}
+
+#img-pac {
+    height: 300px;
+    width: 100%;
+}
+
+#img-eye {
+    height: 300px;
+    width: 100%;
+}
+
+#img-bus {
+    height: 300px;
+    width: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #679bad;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #aeccc6;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #375f79;
+    color: white;
+  }
