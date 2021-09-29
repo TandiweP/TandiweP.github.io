@@ -4,7 +4,8 @@ body {
 
 header {
     text-align: center;
-    font-size: 400px;
+    width: 100%;
+    font-size: 20vw;
     color: rgb(211, 210, 210);
 }
 
