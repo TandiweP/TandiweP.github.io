@@ -1,81 +1,170 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+	</head>
+	<body class="is-preload">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="mainstyles.css" />
-        <title>Portfolio</title>     
-    </head>
-    
-    <body>
-        
-        <div class="topnav">
-            <a class="active" href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-          </div>
+		<!-- Wrapper-->
+			<div id="wrapper">
 
-        <main class="content">
-            
-            <div class = "d1">
-                Billie Porter 
-            </div>
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#aboutme" class="icon solid fa-user"><span>About Me</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						<a href="https://www.linkedin.com/in/billie-porter-00936b110" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
+					</nav>
 
-            <div class = "d2">
-                <h2>The Hard Skills</h2>
-                <ul id = "ul-1">
-                    <li>MERN Stack (JS, MongoDB, Express, React, Node)</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>Graphic Design</li>
-                    <li>Experienced Teacher</li>
-                </ul>
-            </div>
+				<!-- Main -->
+					<div id="main">
 
-            <div class = "d3">
-                <button class = "button-linkedin">
-                    <a href="https://www.linkedin.com/in/billie-porter-00936b110" class="linkedin"><img src = "in.png" id = "linkedimg"></a>
-                </button>
-            </div>
-            
-            <div class = "d4">
-                <h2>The Soft Skills</h2>
-                <ul id = "ul-1">
-                    <li>Leadership with an upbeat personality</li>
-                    <li>Great communicator</li>
-                    <li>A teacher that's teachable</li>
-                    <li>Responsible</li>
-                    <li>Work well with diverse populations</li>
-                    <li>Team Player</li>
-                    <li>Experience and skill with negotiation and conflict resolution</li>
-                    <li>Patient. Wait for it...</li>
-                </ul>
-            </div>
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Billie Porter</h1>
+									<p>Educator. Creator. Thinker. Developer.</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/selfiePro.jpg" alt="" />
+								</a>
+							</article>
 
-            <div class = "d5">D5</div>
+						<!-- About -->
+						<article id="aboutme" class="panel">
+							<header>
+								<h1>About Me</h1>
+								<p id="metext">Hard worker with a strong creative side. Experienced educator, website manager, and graphic designer. Enjoy working with people of diverse cultures, backgrounds, and personalities. World traveler and adventure junkie. Rather tall and funny.</p>
+							</header>
+							<section>
+								<div class="row">
+									<div id="margined"class="col-4 col-6-medium col-12-small">
+										<img class="image fit"src="images/MIT.png" alt="">
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<img id="lionpic" class="image fit"src="images/lionwalker.jpg" alt="">
+									</div>
+									<div style="margin-top: 9%; margin-left: -2%; " class="col-4 col-6-medium col-12-small">
+										<img class="image fit"src="images/suu.jpg" alt="">
+									</div>
+								</div>
+							</section>
+						</article>
 
-            <div class = "i-frame-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Qf09CLOdJxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Work</h2>
+								</header>
+								<p>
+									My projects reflect on my creativity, firm grasp on design, algorighmic thinking, and ever-developing brain. 
+								</p>
+								<div class="row">
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="https://billieporterfullstackbankgingapplication.netlify.app/" class="image fit"><img class="card-img-top"src="images/badbank.jpg" alt=""></a>
+										<p class="project-description">Full Stack MERN personal banking application with bonus currency converter</p> 
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="https://tandiwep.github.io/calculator" class="image fit"><img src="images/calculator.png" alt=""></a>
+										<p class="project-description">CSS Grid styled React calculator with JS functions for each operation </p>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="https://tandiwep.github.io/tiktaktoe" class="image fit"><img src="images/tictaktoe.png" alt=""></a>
+										<p class="project-description">TicTacToe game which automatically toggles between player turns</p>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="https://tandiwep.github.io/PacMen-Exercise" class="image fit"><img src="images/pacmenGo.jpg" alt=""></a>
+										<p class="project-description">Allows users to create randomly dancing pacmen each time the screen is clicked</p>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="https://tandiwep.github.io/Eye-Exercise" class="image fit"><img src="images/oneeye.png" alt=""></a>
+										<p class="project-description">Eye follows mouse movement around the screen</p>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="https://tandiwep.github.io/Eye-Exercise" class="image fit"><img src="images/horror.png" alt=""></a>
+										<p class="project-description">Locally routed React/Bootstrap Horror Movie Catalog</p>
+									</div>
+									<!-- <div class="col-4 col-6-medium col-12-small">
+										<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
+									</div>
+									<div class="col-4 col-6-medium col-12-small">
+										<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+									</div> -->
+								</div>
+							</section>
+							</article>
 
-            <div class = "d7">D7</div>
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
 
-            <div class = "d8">D8</div>
+					</div>
 
-            <div class = "d10">
-                <h1 id = "bio-head">A Little Bio...</h1>
-                <p id = "bio-p">Small town raised with global adventures.  Experienced educator, website manager, and graphic designer.  Enjoy working with people of diverse cultures, backgrounds, and personalities. Mastering the MERN Stack. </p>
-                <p id = "github">Ready to collaborate? Find me on Github: TandiweP</p>
-            </div>
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; BushBeeCreationsLLC.</li><li>Location: Utah</li>
+						</ul>
+					</div>
 
-         </main>   
+			</div>
 
-        <script src="landing.js"></script>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-    </body>
-    
+	</body>
 </html>
