@@ -21,9 +21,8 @@
 }
 
 .project-description {
-	text-align: justify;
-	
-	margin: .75rem 2rem 0 2rem;
+	text-align: inherit;
+	margin: 1rem 2rem 2rem 2rem;
 	font-size: 1rem;
 	line-height: 1.5em;
 	
