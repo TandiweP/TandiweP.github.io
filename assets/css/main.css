@@ -28,7 +28,20 @@
 	
 }
 
+#shakespeare {
+	margin-top: 4vh;
+	text-align: justify;
+	
+}
+#project-cards {
+	display: flex; 
+	align-items: center;
+	justify-content: space-between;
+}
 
+#project-card {
+	border: black;
+}
 
 
 
