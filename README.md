@@ -1,8 +1,8 @@
 # My Portfolio: 
 
-## [View]("https://tandiwep.github.io/")
+## [Portfolio Link]("https://tandiwep.github.io/")
 
-...
+---
 
 ### Contains: 
 - About me
