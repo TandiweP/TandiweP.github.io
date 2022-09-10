@@ -2,7 +2,6 @@
 
 ## [Portfolio Link]("https://tandiwep.github.io/")
 
----
 
 ### Contains: 
 - About me
