@@ -1,10 +1,10 @@
 # My Portfolio: 
 
-## [Portfolio Link]("https://tandiwep.github.io/")
+## [Portfolio Link](https://tandiwep.github.io/)
 
 
 ### Contains: 
 - About me
-- My work
-- LinkedIn Profile 
+- My work 
+- LinkedIn Profile
 
